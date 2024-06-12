@@ -83,7 +83,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event)
 
     if (user) {
         alert('Login bem-sucedido!');
-        window.location.href = 'Assets/index.html'; 
+        window.location.href = 'Assets/home.html'; 
     } else {
         alert('Email ou senha incorretos.');
     }
